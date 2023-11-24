@@ -1,0 +1,165 @@
+:root {
+    --colorFondo: #303030;
+    --gris: rgb(136,136,136);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-color: var(--gris);
+}
+
+
+.contenedorA {
+    background: red;
+    padding: 1%;
+    margin: 25px;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    border-radius: 5px;
+    margin: 50px;
+    box-shadow: 8px 5px 3px 3px rgba(185,184,1184, 0.394);
+}
+
+.lcd_containerA {
+    width: 100%;
+    margin: 2rem;
+}
+
+.lcd_containerA > input {
+    width: 85%;
+    padding: 10%;
+    border-radius: 5px;
+}
+
+.buttons_container {
+    padding: 10%;
+    display: flex;
+    height: 30%;
+    padding: 40%;
+    align-items: center;
+    /*background-color: blue;*/
+}
+
+.btns_porcentaje {
+    display: flex;
+}
+
+.btn { 
+    margin: 5px;
+    border: 1px solid rgb(61, 106, 225);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    font-size: 1rem;
+ }
+
+ .contenedorA {
+    display: flex;
+    flex-wrap: wrap;
+    width: 31.5rem;
+ }
+
+ .contenedorB {
+    background: blue;
+    padding: 1%;
+    margin: 25px;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    border-radius: 5px;
+    margin: 50px;
+    box-shadow: 8px 5px 3px 3px rgba(185,184,1184, 0.394);
+}
+
+ .lcd_containerB {
+    margin: 1.5rem;
+    width: 100%;
+}
+ 
+ .lcd_containerB > input {
+    width: 85%;
+    padding: 10%;
+    border-radius: 10px;
+ }
+ 
+.buttons_container2 {
+    padding: 100%;
+    display: flex;
+    height: 40%;
+    padding: 40%;
+}
+ 
+ .btns_ByE{
+    display: flex;
+ }
+
+ #btn_borrar  {
+    display: flex;
+    margin: 10%;
+    padding: 20%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+ }
+
+ #btn_enviar {
+    display: flex;
+    margin: 10%;
+    padding: 20%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+ }
+
+.contenedorB { 
+    display: flex;
+    flex-wrap: wrap;
+    width: 31.6rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+} 
+
+ .btn:hover {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 3px 2px rgba(1, 51, 71, 0.815);
+ }
+
+ .main_container { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
